@@ -2,10 +2,9 @@
 
 Anexos
 Tabela 1 - Features do projeto, contendo seus códigos e descrições
-+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 | Variável   | Descrição                                                                                                                                       |
-+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
-| ADDEPEV3   | Indica se o entrevistado já foi diagnosticado com um transtorno depressivo (incluindo depressão, depressão maior, distimia ou depressão menor). |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| ADDEPEV3   | Indica se o entrevistado já foi diagnosticado com um transtorno depressivo (incluindo depressão, depressão major, distimia ou depressão menor). É a variável target do projeto. |
 | _SEX       | Sexo (masculino ou feminino).                                                                                                                   |
 | _AGE80     | Idade dividida em grupos (18-24, 25-29, 30-34, …, 80-99).                                                                                       |
 | _RFHLTH    | Percepção sobre sua própria saúde, variando de excelente a ruim.                                                                                |
@@ -36,4 +35,3 @@ Tabela 1 - Features do projeto, contendo seus códigos e descrições
 | SDHTRNSP   | Indica se o entrevistado teve dificuldade de se transportar para lugares do dia a dia nos últimos 12 meses.                                     |
 | SDHSTRE1   | Indica se o entrevistado sentiu estresse nos últimos 12 meses.                                                                                  |
 | _RACEGR4   | Raça/etnia do entrevistado.                                                                                                                     |
-+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
