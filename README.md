@@ -1,6 +1,6 @@
 # mental-health-forecast
 
-Anexos
+## Anexos
 Tabela 1 - Features do projeto, contendo seus códigos e descrições
 | Variável   | Descrição                                                                                                                                       |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
