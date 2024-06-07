@@ -30,9 +30,10 @@ def predict(_SEX, _AGE80, _RFHLTH, _HLTHPLN, MEDCOST1, CHECKUP1, _TOTINDA, SLEPT
     prediction = model.predict(X_test)
 
     # Retorna a previsão
-    return prediction
+    return [round(float(prediction[0][0]),0),float(prediction[0][0])]
 
 if __name__ == "__main__":
     # Exemplo de dados de entrada
     resultado = predict(1, 65, 1, 1, 0, 1, 1, 7, 1, 0, 2, 4, 2, 1, 0, 2, 1, 0, 2, 3, 4, 3, 2, 2, 2, 3, 1, 1, 1, 4)
+    # resultado = predict(0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     print(f"A previsão é: {resultado}")

@@ -25,4 +25,5 @@ termcolor
 datetime
 
 # deep learning
-tensorflow
+tensorflow==2.16.1
+keras==3.3.2
