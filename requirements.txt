@@ -17,12 +17,14 @@ mlflow
 s3fs
 fastapi
 uvicorn
+requests
 
 # utilities
 six>=1.14
 memoized-property
 termcolor
 datetime
+streamlit
 
 # deep learning
 tensorflow==2.16.1
