@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 from tensorflow.keras import models
 
-def predict(_SEX, _AGE80, _RFHLTH, _HLTHPLN, MEDCOST1, CHECKUP1, _TOTINDA, SLEPTIM1, _MICHD, _LTASTH1, MARITAL,
+def predict_health(_SEX, _AGE80, _RFHLTH, _HLTHPLN, MEDCOST1, CHECKUP1, _TOTINDA, SLEPTIM1, _MICHD, _LTASTH1, MARITAL,
             EDUCA, RENTHOM1, EMPLOY1, CHILDREN, _BMI5CAT, DECIDE, DIFFALON, _SMOKER3, ALCDAY4, LSATISFY,
             EMTSUPRT, SDHISOLT, SDHEMPLY, SDHFOOD1, SDHBILLS, SDHUTILS, SDHTRNSP, SDHSTRE1, _RACEGR4):
 
@@ -34,6 +34,6 @@ def predict(_SEX, _AGE80, _RFHLTH, _HLTHPLN, MEDCOST1, CHECKUP1, _TOTINDA, SLEPT
 
 if __name__ == "__main__":
     # Exemplo de dados de entrada
-    resultado = predict(1, 65, 1, 1, 0, 1, 1, 7, 1, 0, 2, 4, 2, 1, 0, 2, 1, 0, 2, 3, 4, 3, 2, 2, 2, 3, 1, 1, 1, 4)
+    resultado = predict_health(1, 65, 1, 1, 0, 1, 1, 7, 1, 0, 2, 4, 2, 1, 0, 2, 1, 0, 2, 3, 4, 3, 2, 2, 2, 3, 1, 1, 1, 4)
     # resultado = predict(0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
     print(f"A previsão é: {resultado}")
